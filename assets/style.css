@@ -1,0 +1,86 @@
+*{
+margin: 0px;
+
+}
+
+
+form{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.btn{
+    padding: 15px;
+    border: 1px solid rgb(72, 72, 72);;
+    border-radius: 30px;
+    color: grey;
+
+}
+
+
+.btn-xeta{
+
+    background-color: rgb(72, 72, 72);
+}
+
+
+.btn-xeta:hover{
+
+    background-color: white;
+}
+
+
+
+.select_{
+    margin-top: 5px;
+}
+
+.select_ option{
+    background-color: rgb(255, 242, 219);
+
+
+}
+
+.select_ select{
+    background-color:rgb(175, 162, 144);
+    padding: 15px;
+    border-radius:20px;
+    border: 1px solid rgb(175, 162, 144);
+
+
+}
+
+.date{
+    background-color: rgb(221, 221, 213);
+    padding: 15px;
+    border-radius:20px;
+    border: 1px solid rgb(175, 162, 144);
+
+}
+
+.number{
+    color:white;
+    background-color: grey;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.file{
+    padding: 15px;
+    color: rgb(169, 168, 168);
+    background-color: rgb(103, 52, 52);
+    border: 1px solid rgb(103, 52, 52);
+    border-radius: 30px;
+    width: 330px;
+}
+
+
+.reset{
+    background-color: rgba(86, 97, 119, 0.892);
+    padding: 15px;
+    border-radius:30px;
+    border: 1px solid rgba(86, 97, 119, 0.892);
+}
